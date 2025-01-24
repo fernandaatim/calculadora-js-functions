@@ -29,6 +29,7 @@ function criaCalculadora() {
             let conta = this.display.value;
 
             try {
+                //avalia o que está na string e executar um código em javascript - EVAL - perigoso inserção de códigos maliciosos
                 conta = eval(conta);
 
                 if (!conta) {
