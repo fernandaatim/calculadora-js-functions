@@ -1,0 +1,7 @@
+@use '../abstracts/variables';
+
+.container {
+    background-color: variables.$color-white;
+    padding: 2rem;
+    width: 200px;
+}
